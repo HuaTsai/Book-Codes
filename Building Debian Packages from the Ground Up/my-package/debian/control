@@ -1,0 +1,10 @@
+Source: my-package
+Build-Depends: gcc
+Maintainer: HuaTsai <huatsai42@gmail.com>
+Section: utils
+Priority: optional
+
+Package: my-package
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: package description

@@ -1,0 +1,4 @@
+#!/usr/bin/dh-exec
+
+doc.md /usr/share/doc/my-package
+doc.md => /usr/share/doc/my-package/document.md
